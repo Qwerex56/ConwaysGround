@@ -1,0 +1,12 @@
+﻿<Router AppAssembly="@typeof(App).Assembly" >
+  <Found Context="routeData" >
+    <RouteView RouteData="@routeData" />
+  </Found>
+  <NotFound>
+    <PageTitle>Not found</PageTitle>̣
+    @* TODO: Some fancy not found page *@
+    <LayoutView >
+      <p role="alert" >Sorry, there's nothing at this address.</p>
+    </LayoutView>
+  </NotFound>
+</Router>
